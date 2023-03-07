@@ -31,7 +31,7 @@
             content: "";
             height: 300px;
             width: 300px;
-            background-color: var(--color-link);
+            background-color: var(--color-dark);
             border-radius: 50%;
             position: absolute;
             top: 50%;
@@ -41,8 +41,8 @@
             z-index: -1;
         }
         &:hover {
-            background-color: var(--color-link);
-            border-color: var(--color-link);
+            background-color: var(--color-dark);
+            border-color: var(--color-dark);
             &::after {
                 transform: translateY(-50%) translateX(-50%) scale(1);
             }
@@ -52,7 +52,7 @@
         background-color: var(--color-white);
         box-shadow: 0px 48px 48px 0px rgba(#000000, 0.12);
         &:hover {
-            background-color: var(--color-accent1);
+            background-color: var(--color-dark);
             color: var(--color-white);
         }
     }

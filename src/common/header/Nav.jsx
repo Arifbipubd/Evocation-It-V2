@@ -12,21 +12,21 @@ const Nav = () => {
           <Link to={"/about"}>About</Link>
         </li>
         <li className='menu-item-has-children'>
-          <Link to='#'>
+          <Link to='/services'>
             Services <FaAngleDown />{" "}
           </Link>
           <ul className='axil-submenu'>
             <li>
-              <Link to={"/service-details"}>Single Service 1</Link>
+              <Link to={"/services/service-details"}>Single Service 1</Link>
             </li>
             <li>
-              <Link to={"/service-details"}>Single Service 2</Link>
+              <Link to={"/services/service-details"}>Single Service 2</Link>
             </li>
             <li>
-              <Link to={"/service-details"}>Single Service 3</Link>
+              <Link to={"/services/service-details"}>Single Service 3</Link>
             </li>
             <li>
-              <Link to={"/service-details"}>Single Service 4</Link>
+              <Link to={"/services/service-details"}>Single Service 4</Link>
             </li>
           </ul>
         </li>

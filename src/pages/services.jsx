@@ -36,7 +36,7 @@ const ServiceOne = () => {
 
   return (
     <>
-      <SEO title='Service One' />
+      <SEO title='Services' />
       <ColorSwitcher />
       <main className='main-wrapper'>
         <HeaderOne />
