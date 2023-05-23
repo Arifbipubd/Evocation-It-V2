@@ -1,9 +1,9 @@
 /** @format */
 
 import React from "react";
-import LocationData from "../../data/contact/LocationData.json";
+// import LocationData from "../../data/contact/LocationData.json";
 
-const allData = LocationData;
+// const allData = LocationData;
 
 const ContactLocation = () => {
   return <></>;

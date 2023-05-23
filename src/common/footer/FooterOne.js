@@ -7,10 +7,6 @@ import {
   FaTwitter,
   FaPinterestP,
   FaLinkedin,
-  FaInstagram,
-  FaVimeoV,
-  FaDribbble,
-  FaBehance,
   FaEnvelopeOpen,
 } from "react-icons/fa";
 import ServiceData from "../../data/service/ServiceMain.json";
