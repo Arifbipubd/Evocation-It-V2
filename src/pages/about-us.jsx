@@ -26,8 +26,8 @@ const AboutUs = () => {
           mainThumb='/images/banner/banner-thumb-3.png'
         />
         <AboutFour />
-        <AboutThree />
-        <AboutFive />
+        {/* <AboutThree /> */}
+        {/* <AboutFive /> */}
         <ProcessOne />
         <CtaLayoutOne />
         <FooterOne parentClass='' />

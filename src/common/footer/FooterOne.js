@@ -24,48 +24,38 @@ const FooterOne = ({ parentClass }) => {
       <div className='container'>
         <div className='footer-top'>
           <div className='footer-social-link'>
-            <ul className='list-unstyled'>
-              <li>
-                <Link to='https://facebook.com/'>
-                  <FaFacebookF />
-                </Link>
-              </li>
-              <li>
-                <Link to='https://twitter.com/'>
-                  <FaTwitter />
-                </Link>
-              </li>
-              <li>
-                <Link to='https://www.pinterest.com/'>
-                  <FaPinterestP />
-                </Link>
-              </li>
-              <li>
-                <Link to='https://www.linkedin.com/'>
-                  <FaLinkedin />
-                </Link>
-              </li>
-              <li>
-                <Link to='https://www.instagram.com/'>
-                  <FaInstagram />
-                </Link>
-              </li>
-              <li>
-                <Link to='https://vimeo.com/'>
-                  <FaVimeoV />
-                </Link>
-              </li>
-              <li>
-                <Link to='https://dribbble.com/'>
-                  <FaDribbble />
-                </Link>
-              </li>
-              <li>
-                <Link to='https://www.behance.net/'>
-                  <FaBehance />
-                </Link>
-              </li>
-            </ul>
+            <div className=' row '>
+              <ul className='list-unstyled col-md-6 col-12'>
+                <div className=' col-md-3 '>
+                  <li>
+                    <Link to='https://facebook.com/'>
+                      <FaFacebookF />
+                    </Link>
+                  </li>
+                </div>
+                <div className=' col-md-3 '>
+                  <li>
+                    <Link to='https://twitter.com/'>
+                      <FaTwitter />
+                    </Link>
+                  </li>
+                </div>
+                <div className=' col-md-3 '>
+                  <li>
+                    <Link to='https://www.pinterest.com/'>
+                      <FaPinterestP />
+                    </Link>
+                  </li>
+                </div>
+                <div className=' col-md-3 '>
+                  <li>
+                    <Link to='https://www.linkedin.com/'>
+                      <FaLinkedin />
+                    </Link>
+                  </li>
+                </div>
+              </ul>
+            </div>
           </div>
         </div>
         <div className='footer-main'>

@@ -75,13 +75,6 @@ const Contact = () => {
 
         <div className='section section-padding bg-color-dark overflow-hidden'>
           <div className='container'>
-            <SectionTitle
-              subtitle='Find Us'
-              title='Our office'
-              description=''
-              textAlignment='heading-light-left'
-              textColor=''
-            />
             <div className='row'>
               <ContactLocation />
             </div>

@@ -33,6 +33,9 @@ const ServiceOne = () => {
   const strategyData = allData.filter(
     (data) => slugify(data.cate ? data.cate : "") === "content-strategy"
   );
+  const improvementData = allData.filter(
+    (data) => slugify(data.cate ? data.cate : "") === "improvement"
+  );
 
   return (
     <>
@@ -67,7 +70,7 @@ const ServiceOne = () => {
                 </li>
                 <li className='nav-item'>
                   <a className='nav-link' href='#section3'>
-                    Online Marketing
+                    Marketing
                   </a>
                 </li>
                 <li className='nav-item'>
@@ -82,7 +85,12 @@ const ServiceOne = () => {
                 </li>
                 <li className='nav-item'>
                   <a className='nav-link' href='#section6'>
-                    Content Strategy
+                    Content strategy
+                  </a>
+                </li>
+                <li className='nav-item'>
+                  <a className='nav-link' href='#section7'>
+                    Improvement
                   </a>
                 </li>
               </ul>
@@ -198,6 +206,25 @@ const ServiceOne = () => {
                   colSize='col-lg-4 col-md-6'
                   serviceStyle='service-style-2'
                   serviceData={strategyData}
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className='section section-padding' id='section7'>
+            <div className='container'>
+              <SectionTitle
+                subtitle='Service'
+                title='Improvement'
+                description=''
+                textAlignment='heading-left'
+                textColor=''
+              />
+              <div className='row'>
+                <ServiceProp
+                  colSize='col-lg-4 col-md-6'
+                  serviceStyle='service-style-2'
+                  serviceData={improvementData}
                 />
               </div>
             </div>
