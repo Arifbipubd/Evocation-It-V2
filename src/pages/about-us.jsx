@@ -9,6 +9,7 @@ import CtaLayoutOne from "../component/cta/CtaLayoutOne";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
 import ProcessOne from "../component/process/ProcessOne";
 import AboutFour from "../component/about/AboutFour";
+import BrandOne from "../component/brand/BrandOne";
 
 const AboutUs = () => {
   return (
@@ -27,6 +28,7 @@ const AboutUs = () => {
         {/* <AboutThree /> */}
         {/* <AboutFive /> */}
         <ProcessOne />
+        <BrandOne />
         <CtaLayoutOne />
         <FooterOne parentClass='' />
       </main>

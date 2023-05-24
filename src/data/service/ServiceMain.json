@@ -26,12 +26,7 @@
   },
   {
     "image": "/images/icon/icon-5.png",
-    "title": "content strategy ",
-    "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library."
-  },
-  {
-    "image": "/images/icon/icon-5.png",
-    "title": "improvement",
+    "title": "Strategy  and Improvement",
     "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library."
   },
   {
@@ -110,24 +105,24 @@
     "image": "/images/icon/icon-45.png",
     "title": "web audit",
     "description": "We design professional looking yet simple Logo. Our designs are search engine and user friendly.",
-    "cate": "Content strategy"
+    "cate": "Strategy  and Improvement"
   },
   {
     "image": "/images/icon/icon-46.png",
     "title": "Performance",
     "description": "We design professional looking yet simple Logo. Our designs are search engine and user friendly.",
-    "cate": "Content strategy"
+    "cate": "Strategy  and Improvement"
   },
   {
     "image": "/images/icon/icon-47.png",
     "title": "Maintenance",
     "description": "We design professional looking yet simple Logo. Our designs are search engine and user friendly.",
-    "cate": "improvement"
+    "cate": "Strategy  and Improvement"
   },
   {
     "image": "/images/icon/icon-47.png",
     "title": "Web security",
     "description": "We design professional looking yet simple Logo. Our designs are search engine and user friendly.",
-    "cate": "improvement"
+    "cate": "Strategy  and Improvement"
   }
 ]

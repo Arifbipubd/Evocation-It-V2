@@ -30,11 +30,8 @@ const ServiceOne = () => {
   const technologyData = allData.filter(
     (data) => slugify(data.cate ? data.cate : "") === "technology"
   );
-  const strategyData = allData.filter(
-    (data) => slugify(data.cate ? data.cate : "") === "content-strategy"
-  );
-  const improvementData = allData.filter(
-    (data) => slugify(data.cate ? data.cate : "") === "improvement"
+  const strategyAndImprovementData = allData.filter(
+    (data) => slugify(data.cate ? data.cate : "") === "strategy-and-improvement"
   );
 
   return (
@@ -85,12 +82,7 @@ const ServiceOne = () => {
                 </li>
                 <li className='nav-item'>
                   <a className='nav-link' href='#section6'>
-                    Content strategy
-                  </a>
-                </li>
-                <li className='nav-item'>
-                  <a className='nav-link' href='#section7'>
-                    Improvement
+                    Strategy & Improvement
                   </a>
                 </li>
               </ul>
@@ -196,7 +188,7 @@ const ServiceOne = () => {
             <div className='container'>
               <SectionTitle
                 subtitle='Service'
-                title='Content strategy'
+                title='Strategy & Improvement'
                 description=''
                 textAlignment='heading-left'
                 textColor=''
@@ -205,26 +197,7 @@ const ServiceOne = () => {
                 <ServiceProp
                   colSize='col-lg-4 col-md-6'
                   serviceStyle='service-style-2'
-                  serviceData={strategyData}
-                />
-              </div>
-            </div>
-          </div>
-
-          <div className='section section-padding' id='section7'>
-            <div className='container'>
-              <SectionTitle
-                subtitle='Service'
-                title='Improvement'
-                description=''
-                textAlignment='heading-left'
-                textColor=''
-              />
-              <div className='row'>
-                <ServiceProp
-                  colSize='col-lg-4 col-md-6'
-                  serviceStyle='service-style-2'
-                  serviceData={improvementData}
+                  serviceData={strategyAndImprovementData}
                 />
               </div>
             </div>
