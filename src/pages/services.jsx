@@ -41,7 +41,7 @@ const ServiceOne = () => {
       <main className='main-wrapper'>
         <HeaderOne />
         <BcrumbBannerOne
-          title='Best solutions for your business'
+          title='Crafting Digital Solutions for Success'
           paragraph='Give your business a unique logo to stand out from crowd. We’ll create logo specifically for your company.
                 '
           styleClass=''
