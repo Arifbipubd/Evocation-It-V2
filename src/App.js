@@ -11,7 +11,7 @@ import About from "./pages/about-us";
 import Portfolio from "./pages/portfolio";
 import Blog from "./pages/blog";
 import Services from "./pages/services";
-import SingleService from "./pages/serviceDetails";
+import ServiceDetails from "./pages/serviceDetails";
 import Contact from "./pages/contact-us";
 
 import "./assets/scss/app.scss";
@@ -28,7 +28,7 @@ const App = () => {
           <Route path={"/services"} element={<Services />} />
           <Route
             path={"/services/service-details"}
-            element={<SingleService />}
+            element={<ServiceDetails />}
           />
           <Route path={"/contact"} element={<Contact />} />
         </Routes>

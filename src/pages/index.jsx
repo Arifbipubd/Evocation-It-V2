@@ -25,8 +25,7 @@ const DigitalAgency = () => {
             <SectionTitle
               subtitle='What We Can Do For You'
               title='Services we can help you with'
-              description='Nulla facilisi. Nullam in magna id dolor 
-                        blandit rutrum eget vulputate augue sed eu imperdiet.'
+              description='From responsive design to seamless functionality, we offer a complete suite of web development services.'
               textAlignment='heading-light-left'
               textColor=''
             />

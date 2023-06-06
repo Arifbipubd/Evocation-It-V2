@@ -35,8 +35,8 @@ const ServiceDetails = () => {
       <main className='main-wrapper'>
         <HeaderOne />
         <BcrumbBannerOne
-          title={detailsService.title}
-          paragraph={detailsService.description}
+          title='Title'
+          paragraph='Parragrap'
           styleClass=''
           mainThumb='/images/banner/banner-thumb-4.png'
         />
