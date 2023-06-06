@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import { slugify } from "../../utils";
+// import { slugify } from "../../utils";
 
 const ServiceProp = ({ colSize, serviceStyle, serviceData }) => {
   return (
