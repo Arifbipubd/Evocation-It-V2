@@ -21,7 +21,7 @@ const ProjectGridOne = () => {
           paragraph='A quick view of industry specific problems solved with design by the awesome team at Abstrak.
                 '
           styleClass=''
-          mainThumb='/images/banner/banner-thumb-1.png'
+          mainThumb='/images/project/hero-project.png'
         />
         <ProjectOne />
         <CtaLayoutOne />

@@ -22,7 +22,7 @@ const AboutUs = () => {
           title='One of the fastest growing agency'
           paragraph='We design and develop web and mobile applications for our clients worldwide.'
           styleClass='thumbnail-4'
-          mainThumb='/images/banner/banner-thumb-3.png'
+          mainThumb='/images/about/hero-about.png'
         />
         <AboutFour />
         {/* <AboutThree /> */}

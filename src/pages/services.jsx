@@ -30,8 +30,9 @@ const ServiceOne = () => {
   const technologyData = allData.filter(
     (data) => slugify(data.cate ? data.cate : "") === "technology"
   );
-  const strategyAndImprovementData = allData.filter(
-    (data) => slugify(data.cate ? data.cate : "") === "strategy-and-improvement"
+  const maintenanceAndImprovementData = allData.filter(
+    (data) =>
+      slugify(data.cate ? data.cate : "") === "maintenance-and-improvement"
   );
 
   return (
@@ -45,7 +46,7 @@ const ServiceOne = () => {
           paragraph='Give your business a unique logo to stand out from crowd. We’ll create logo specifically for your company.
                 '
           styleClass=''
-          mainThumb='/images/banner/banner-thumb-4.png'
+          mainThumb='/images/services/hero-service.png'
         />
         <div className='service-scroll-navigation-area'>
           {/* Service Nav */}
@@ -188,7 +189,7 @@ const ServiceOne = () => {
             <div className='container'>
               <SectionTitle
                 subtitle='Service'
-                title='Strategy & Improvement'
+                title='Maintenence & Improvement'
                 description=''
                 textAlignment='heading-left'
                 textColor=''
@@ -197,7 +198,7 @@ const ServiceOne = () => {
                 <ServiceProp
                   colSize='col-lg-4 col-md-6'
                   serviceStyle='service-style-2'
-                  serviceData={strategyAndImprovementData}
+                  serviceData={maintenanceAndImprovementData}
                 />
               </div>
             </div>

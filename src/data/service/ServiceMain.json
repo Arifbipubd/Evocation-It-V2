@@ -26,7 +26,7 @@
   },
   {
     "image": "/images/icon/icon-5.png",
-    "title": "Strategy  and Improvement",
+    "title": "Maintenance and Improvement",
     "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library."
   },
   {
@@ -49,7 +49,7 @@
   },
   {
     "image": "/images/icon/icon-31.png",
-    "title": "Website development CMS",
+    "title": "CMS site development",
     "description": "Robust website development CMS that empowers you to take control of your online presence.",
     "cate": "Development"
   },
@@ -61,13 +61,13 @@
   },
   {
     "image": "/images/icon/icon-33.png",
-    "title": "Web App",
+    "title": "Web App development",
     "description": "Tailored web app development that empowers your business with advanced functionality and seamless performance.",
     "cate": "Development"
   },
   {
     "image": "/images/icon/icon-34.png",
-    "title": "SEO",
+    "title": "Search Engine Optimization",
     "description": "Increase your online presence and attract qualified leads through strategic SEO optimization.",
     "cate": "Online Marketing"
   },
@@ -105,24 +105,24 @@
     "image": "/images/icon/icon-45.png",
     "title": "web audit",
     "description": "Comprehensive web audit to uncover areas for improvement and enhance your website's performance.",
-    "cate": "Strategy  and Improvement"
+    "cate": "Maintenance and Improvement  "
   },
   {
     "image": "/images/icon/icon-46.png",
     "title": "Performance",
     "description": "Fine-tune your website's performance to achieve optimal loading times and seamless navigation.",
-    "cate": "Strategy  and Improvement"
+    "cate": "Maintenance and Improvement"
   },
   {
     "image": "/images/icon/icon-47.png",
     "title": "Maintenance",
     "description": "Reliable website maintenance services to keep your website secure, up-to-date, and running smoothly.",
-    "cate": "Strategy  and Improvement"
+    "cate": "Maintenance and Improvement"
   },
   {
     "image": "/images/icon/icon-47.png",
     "title": "Web security",
     "description": "Ensure the safety and integrity of your website with state-of-the-art security measures and encryption.",
-    "cate": "Strategy  and Improvement"
+    "cate": "Maintenance and Improvement"
   }
 ]
