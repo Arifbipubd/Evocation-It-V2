@@ -9,7 +9,11 @@ const PropOne = ({ projectStyle, portfolio }) => {
     <>
       <div className={`project-grid ${projectStyle}`}>
         <div className='thumbnail'>
-          <Link to='/portfolio/portfolio-details'>
+          <Link
+            to={
+              process.env.PUBLIC_URL +
+              `/project-details/${slugify(portfolio.title)}`
+            }>
             <img src={process.env.PUBLIC_URL + portfolio.image} alt='icon' />
           </Link>
         </div>
