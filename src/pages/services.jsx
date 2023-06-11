@@ -83,7 +83,7 @@ const ServiceOne = () => {
                 </li>
                 <li className='nav-item'>
                   <a className='nav-link' href='#section6'>
-                    Strategy & Improvement
+                    Maintenance & Improvement
                   </a>
                 </li>
               </ul>
@@ -189,7 +189,7 @@ const ServiceOne = () => {
             <div className='container'>
               <SectionTitle
                 subtitle='Service'
-                title='Maintenence & Improvement'
+                title='Maintenance & Improvement'
                 description=''
                 textAlignment='heading-left'
                 textColor=''
