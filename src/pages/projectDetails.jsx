@@ -14,6 +14,8 @@ import { FaCompress, FaCode, FaGlobe } from "react-icons/fa";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
 import SEO from "../common/SEO";
 
+// let accordianName = []
+
 const allProjectData = ProjectData;
 
 const ProjectDetails = () => {
@@ -57,25 +59,20 @@ const ProjectDetails = () => {
               </div>
               <div className='col-lg-6 offset-xl-1'>
                 <div className='why-choose-us'>
-                  <div className='section-heading heading-left'>
-                    <h3 className='title'>We delivered</h3>
-                    <p>
-                      Digital technology has made our world more transparent and
-                      interconnected, posing new challenges and opportunities
-                      for every business.
-                    </p>
-                  </div>
                   <Accordion defaultActiveKey='1'>
-                    <Accordion.Item eventKey='1'>
-                      <Accordion.Header>
-                        <FaCompress /> Strategy
-                      </Accordion.Header>
-                      <Accordion.Body>
-                        Aenean hendrerit laoreet vehicula. Nullam convallis
-                        augue at enim gravida pellentesque.
-                      </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey='2'>
+                    {detailsProject.accordian.map((data, index) => (
+                      // <p
+                      //   key={index}
+                      //   dangerouslySetInnerHTML={{ __html: data }}></p>
+                      <Accordion.Item eventKey={index}>
+                        <Accordion.Header>
+                          <FaCompress />
+                          {data.title}
+                        </Accordion.Header>
+                        <Accordion.Body>{data.description}</Accordion.Body>
+                      </Accordion.Item>
+                    ))}
+                    {/* <Accordion.Item eventKey='2'>
                       <Accordion.Header>
                         <FaCode /> Design
                       </Accordion.Header>
@@ -92,14 +89,14 @@ const ProjectDetails = () => {
                         Aenean hendrerit laoreet vehicula. Nullam convallis
                         augue at enim gravida pellentesque.
                       </Accordion.Body>
-                    </Accordion.Item>
+                    </Accordion.Item> */}
                   </Accordion>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <VideoOne />
+        <VideoOne url={detailsProject.video} />
         <CtaLayoutOne />
         <FooterOne parentClass='' />
       </main>
