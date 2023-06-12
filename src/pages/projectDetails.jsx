@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import FooterOne from "../common/footer/FooterOne";
 import HeaderOne from "../common/header/HeaderOne";
 import BcrumbBannerTwo from "../elements/breadcrumb/BcrumbBannerTwo";
@@ -60,6 +60,7 @@ const ProjectDetails = () => {
                 <a
                   href={detailsProject.cta}
                   target='_blank'
+                  rel='noreferrer'
                   className='axil-btn btn-fill-primary'>
                   CTA
                 </a>

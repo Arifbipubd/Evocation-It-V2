@@ -11,7 +11,6 @@ import About from "./pages/about-us";
 import Portfolio from "./pages/portfolio";
 import Blog from "./pages/blog";
 import Services from "./pages/services";
-import ServiceDetails from "./pages/serviceDetails";
 import ProjectDetails from "./pages/projectDetails";
 import Contact from "./pages/contact-us";
 
