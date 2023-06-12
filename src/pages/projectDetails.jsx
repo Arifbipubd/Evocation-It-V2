@@ -10,11 +10,9 @@ import { slugify } from "../utils";
 import ProjectData from "../data/project/ProjectData.json";
 import VideoOne from "../component/video/VideoOne";
 import Accordion from "react-bootstrap/Accordion";
-import { FaCompress, FaCode, FaGlobe } from "react-icons/fa";
+import { FaCompress } from "react-icons/fa";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
 import SEO from "../common/SEO";
-
-// let accordianName = []
 
 const allProjectData = ProjectData;
 
