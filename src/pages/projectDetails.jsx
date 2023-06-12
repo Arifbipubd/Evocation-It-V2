@@ -60,7 +60,7 @@ const ProjectDetails = () => {
                 <a
                   href={detailsProject.cta}
                   target='_blank'
-                  rel='noreferrer'
+                  rel='noopener noreferrer'
                   className='axil-btn btn-fill-primary'>
                   CTA
                 </a>
