@@ -3,28 +3,28 @@
     "id": 1,
     "thumb": "/images/about/step1.png",
     "subtitle": "Step One",
-    "title": "Discover",
-    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+    "title": "Research",
+    "paragraph": "In the research phase, we dig deep to understand your industry, target audience, and competitors. Through comprehensive market analysis and user research, we gather valuable insights that inform our web development strategy. This data-driven approach allows us to create tailored solutions that resonate with your audience, driving engagement and success for your online presence."
   },
   {
     "id": 2,
     "thumb": "/images/about/step2.png",
     "subtitle": "Step Two",
     "title": "Prototype",
-    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+    "paragraph": "In the prototype stage we brings your vision to life as we create interactive mockups that showcase the layout, navigation, and functionality of your website. It allows us to test and refine the user experience, ensuring seamless navigation, engaging interactions, and optimal usability. The prototype serves as a blueprint for the development phase, bringing us one step closer to delivering a polished and user-friendly web solution."
   },
   {
     "id": 3,
     "thumb": "/images/about/step3.png",
     "subtitle": "Step Three",
-    "title": "Test",
-    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+    "title": "Build",
+    "paragraph": "The build phase is where the magic happens. Our skilled developers take the approved design and transform it into a fully functional website. With meticulous attention to detail, we code, integrate features, and optimize performance, ensuring a seamless user experience across devices. Our robust development process brings your vision to life, delivering a high-quality website that aligns perfectly with your goals and objectives."
   },
   {
     "id": 4,
     "thumb": "/images/about/step4.png",
     "subtitle": "Step four",
-    "title": "Build",
-    "paragraph": "Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. Aliquam tristique libero at dui sodales, et placerat orci lobortis. Maecenas ipsum neque, elementum id dignissim et, imperdiet vitae mauris."
+    "title": "Maintenance",
+    "paragraph": "Website maintenance is vital for sustained success. We provide ongoing support, ensuring your website remains secure, up-to-date, and optimized for performance. From regular backups and software updates to content management and bug fixes, our maintenance services keep your website running smoothly. With proactive monitoring and timely enhancements, we help you stay ahead in the digital landscape and provide an exceptional user experience."
   }
 ]

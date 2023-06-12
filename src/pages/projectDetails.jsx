@@ -27,6 +27,12 @@ const ProjectDetails = () => {
   );
   const detailsProject = getProjectData[0];
 
+  let VideoDiv;
+
+  if (detailsProject.video != null) {
+    VideoDiv = <VideoOne url={detailsProject.video} />;
+  }
+
   return (
     <>
       <SEO title='Project Details' />
@@ -53,9 +59,12 @@ const ProjectDetails = () => {
                 {detailsProject.body.map((para, index) => (
                   <p key={index} dangerouslySetInnerHTML={{ __html: para }}></p>
                 ))}
-                <Link to='#' className='axil-btn btn-fill-primary'>
-                  Get it Now
-                </Link>
+                <a
+                  href={detailsProject.cta}
+                  target='_blank'
+                  className='axil-btn btn-fill-primary'>
+                  CTA
+                </a>
               </div>
               <div className='col-lg-6 offset-xl-1'>
                 <div className='why-choose-us'>
@@ -96,7 +105,7 @@ const ProjectDetails = () => {
             </div>
           </div>
         </section>
-        <VideoOne url={detailsProject.video} />
+        {VideoDiv}
         <CtaLayoutOne />
         <FooterOne parentClass='' />
       </main>
