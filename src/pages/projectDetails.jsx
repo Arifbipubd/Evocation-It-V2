@@ -29,6 +29,7 @@ const ProjectDetails = () => {
 
   if (detailsProject.video != null) {
     VideoDiv = <VideoOne url={detailsProject.video} />;
+    console.log(detailsProject.accordian.map((data, index) => index));
   }
 
   return (
@@ -67,11 +68,8 @@ const ProjectDetails = () => {
               </div>
               <div className='col-lg-6 offset-xl-1'>
                 <div className='why-choose-us'>
-                  <Accordion defaultActiveKey='1'>
-                    {detailsProject.accordian.map((data, index) => (
-                      // <p
-                      //   key={index}
-                      //   dangerouslySetInnerHTML={{ __html: data }}></p>
+                  {detailsProject.accordian.map((data, index) => (
+                    <Accordion defaultActiveKey={0}>
                       <Accordion.Item eventKey={index}>
                         <Accordion.Header>
                           <FaCompress />
@@ -79,26 +77,8 @@ const ProjectDetails = () => {
                         </Accordion.Header>
                         <Accordion.Body>{data.description}</Accordion.Body>
                       </Accordion.Item>
-                    ))}
-                    {/* <Accordion.Item eventKey='2'>
-                      <Accordion.Header>
-                        <FaCode /> Design
-                      </Accordion.Header>
-                      <Accordion.Body>
-                        Aenean hendrerit laoreet vehicula. Nullam convallis
-                        augue at enim gravida pellentesque.
-                      </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey='3'>
-                      <Accordion.Header>
-                        <FaGlobe /> Development
-                      </Accordion.Header>
-                      <Accordion.Body>
-                        Aenean hendrerit laoreet vehicula. Nullam convallis
-                        augue at enim gravida pellentesque.
-                      </Accordion.Body>
-                    </Accordion.Item> */}
-                  </Accordion>
+                    </Accordion>
+                  ))}
                 </div>
               </div>
             </div>
