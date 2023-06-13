@@ -28,9 +28,10 @@ const PropOne = ({ projectStyle, portfolio }) => {
             </Link>
           </h4>
           <span className='subtitle'>
-            {portfolio.category.map((cat, i) => (
+            {/* {portfolio.category.map((cat, i) => (
               <span key={i}>{cat}</span>
-            ))}
+            ))} */}
+            {portfolio.excerpt}
           </span>
         </div>
       </div>

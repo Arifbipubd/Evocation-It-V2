@@ -13,10 +13,7 @@ const VideoOne = (props) => {
         <div className='container'>
           <div className='about-expert'>
             <div className='thumbnail'>
-              <img
-                src={process.env.PUBLIC_URL + "/images/about/about-1.png"}
-                alt='Thumbnail'
-              />
+              <img src={props.thumbImage} alt='Thumbnail' />
               <div className='popup-video'>
                 <button
                   className='play-btn'
