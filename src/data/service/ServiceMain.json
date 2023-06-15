@@ -2,32 +2,38 @@
   {
     "image": "/images/icon/icon-1.png",
     "title": "Design",
-    "description": "Immerse yourself in the world of captivating design as our experts create visually stunning systems that leave a lasting impression."
+    "description": "Immerse yourself in the world of captivating design as our experts create visually stunning systems that leave a lasting impression.",
+    "sectionUrl": "section1"
   },
   {
     "image": "/images/icon/icon-2.png",
     "title": "Development",
-    "description": "Transform your digital presence with our development solutions, where we create custom systems that cater to your unique needs."
+    "description": "Transform your digital presence with our development solutions, where we create custom systems that cater to your unique needs.",
+    "sectionUrl": "section2"
   },
   {
     "image": "/images/icon/icon-3.png",
     "title": "Online marketing",
-    "description": "Make sure to maximize your digital impact with our tailored online marketing solutions that connect, engage, and convert."
+    "description": "Make sure to maximize your digital impact with our tailored online marketing solutions that connect, engage, and convert.",
+    "sectionUrl": "section3"
   },
   {
     "image": "/images/icon/icon-4.png",
     "title": "Business",
-    "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library."
+    "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
+    "sectionUrl": "section4"
   },
   {
     "image": "/images/icon/icon-5.png",
     "title": "Technology",
-    "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library."
+    "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
+    "sectionUrl": "section5"
   },
   {
     "image": "/images/icon/icon-5.png",
     "title": "Maintenance and Improvement",
-    "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library."
+    "description": "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
+    "sectionUrl": "section6"
   },
   {
     "image": "/images/icon/icon-27.png",

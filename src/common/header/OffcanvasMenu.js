@@ -1,16 +1,16 @@
 /** @format */
 
 import React from "react";
-import { Link } from "react-router-dom";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import {
   FaFacebookF,
   FaTwitter,
   FaLinkedinIn,
-  FaBehance,
+  FaWhatsapp,
   FaPhone,
-  FaFax,
+  FaMailBulk,
 } from "react-icons/fa";
+import { HashLink } from "react-router-hash-link";
 
 const OffcanvasMenu = ({ offcanvasShow, offcanvasHide }) => {
   return (
@@ -38,16 +38,22 @@ const OffcanvasMenu = ({ offcanvasShow, offcanvasHide }) => {
           <div className='col-lg-5 col-xl-6'>
             <ul className='main-navigation list-unstyled'>
               <li>
-                <Link to={"/digital-agency"}>Single Service 1</Link>
+                <HashLink to={"/services#section1"}>Design</HashLink>
               </li>
               <li>
-                <Link to={"/creative-agency"}>Single Service 2</Link>
+                <HashLink to={"/services#section2"}>Development</HashLink>
               </li>
               <li>
-                <Link to={"/personal-portfolio"}>Single Service 3</Link>
+                <HashLink to={"/services#section3"}>Marketing</HashLink>
               </li>
               <li>
-                <Link to={"/home-startup"}>Single Service 4</Link>
+                <HashLink to={"/services#section4"}>Business</HashLink>
+              </li>
+              <li>
+                <HashLink to={"/services#section5"}>Technology</HashLink>
+              </li>
+              <li>
+                <HashLink to={"/services#section6"}>Improvement</HashLink>
               </li>
             </ul>
           </div>
@@ -55,44 +61,56 @@ const OffcanvasMenu = ({ offcanvasShow, offcanvasHide }) => {
             <div className='contact-info-wrap'>
               <div className='contact-inner'>
                 <address className='address'>
-                  <span className='title'>Contact Information</span>
+                  <span className='title'>Our Base Location</span>
                   <p>
-                    Theodore Lowe, Ap #867-859 <br /> Sit Rd, Azusa New York
+                    Bashundhara R/a, Vatara, <br /> Dhaka 1229, Bangladesh
                   </p>
                 </address>
                 <address className='address'>
-                  <span className='title'>We're Available 24/7. Call Now.</span>
+                  <span className='title'>Remotely Reach Us for Inquiry</span>
                   <a href='tel:8884562790' className='tel'>
-                    <FaPhone /> (888) 456-2790
+                    <FaPhone /> (+880) 1521 507 407
                   </a>
                   <a href='tel:12125553333' className='tel'>
-                    <FaFax /> (121) 255-53333
+                    <FaMailBulk /> info@evocationit.com
                   </a>
                 </address>
               </div>
               <div className='contact-inner'>
-                <h5 className='title'>Find us here</h5>
+                <h5 className='title'>Contact us through Socials</h5>
                 <div className='contact-social-share'>
                   <ul className='social-share list-unstyled'>
                     <li>
-                      <a href='https://facebook.com/'>
+                      <a
+                        href='https://www.facebook.com/evocationit'
+                        rel='noopener noreferrer'
+                        target='_blank'>
                         <FaFacebookF />
                       </a>
                     </li>
 
                     <li>
-                      <a href='https://twitter.com/'>
+                      <a
+                        href='https://twitter.com/EvocationIt'
+                        rel='noopener noreferrer'
+                        target='_blank'>
                         <FaTwitter />
                       </a>
                     </li>
                     <li>
-                      <a href='https://www.behance.net/'>
-                        <FaBehance />
+                      <a
+                        href='https://www.linkedin.com/company/evocation-it/'
+                        rel='noopener noreferrer'
+                        target='_blank'>
+                        <FaLinkedinIn />
                       </a>
                     </li>
                     <li>
-                      <a href='https://www.linkedin.com/'>
-                        <FaLinkedinIn />
+                      <a
+                        href='https://wa.me/8801521507407'
+                        rel='noopener noreferrer'
+                        target='_blank'>
+                        <FaWhatsapp />
                       </a>
                     </li>
                   </ul>

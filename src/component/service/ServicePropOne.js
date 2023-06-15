@@ -2,6 +2,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import ServiceData from "../../data/service/ServiceMain.json";
 import { slugify } from "../../utils";
 
@@ -41,11 +42,11 @@ const ServicePropOne = ({ colSize, serviceStyle, itemShow, marginTop }) => {
                 </Link>
               </h5>
               <p>{data.description}</p>
-              <Link
-                to={process.env.PUBLIC_URL + `/services`}
-                className='more-btn'>
+              <HashLink
+                className='more-btn'
+                to={`/services#${data.sectionUrl}`}>
                 View Services
-              </Link>
+              </HashLink>
             </div>
           </div>
         </div>
