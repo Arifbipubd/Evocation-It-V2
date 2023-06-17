@@ -166,7 +166,6 @@ const BlogDetails = () => {
           </div>
         </div>
         <CtaLayoutOne />
-        <FooterOne parentClass='' />
       </main>
     </>
   );

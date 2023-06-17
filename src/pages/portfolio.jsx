@@ -25,7 +25,6 @@ const ProjectGridOne = () => {
         />
         <ProjectOne />
         <CtaLayoutOne />
-        <FooterOne parentClass='' />
       </main>
     </>
   );

@@ -205,7 +205,6 @@ const ServiceOne = () => {
           </div>
         </div>
         <CtaLayoutOne />
-        <FooterOne parentClass='' />
       </main>
     </>
   );

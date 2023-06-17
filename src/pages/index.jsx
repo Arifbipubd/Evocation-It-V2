@@ -62,7 +62,6 @@ const DigitalAgency = () => {
         <ProjectOne />
         {/* <BlogOne /> */}
         <CtaLayoutOne />
-        <FooterOne parentClass='' />
       </main>
     </>
   );

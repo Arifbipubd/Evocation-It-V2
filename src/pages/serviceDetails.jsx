@@ -76,7 +76,6 @@ const ServiceDetails = () => {
           </ul>
         </div>
         <CtaLayoutOne />
-        <FooterOne parentClass='' />
       </main>
     </>
   );

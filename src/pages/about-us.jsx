@@ -30,7 +30,6 @@ const AboutUs = () => {
         <ProcessOne />
         <BrandOne />
         <CtaLayoutOne />
-        <FooterOne parentClass='' />
       </main>
     </>
   );

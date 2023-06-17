@@ -98,7 +98,6 @@ const ProjectDetails = () => {
         </section>
         {VideoDiv}
         <CtaLayoutOne />
-        <FooterOne parentClass='' />
       </main>
     </>
   );

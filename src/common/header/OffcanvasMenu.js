@@ -68,10 +68,10 @@ const OffcanvasMenu = ({ offcanvasShow, offcanvasHide }) => {
                 </address>
                 <address className='address'>
                   <span className='title'>Remotely Reach Us for Inquiry</span>
-                  <a href='tel:8884562790' className='tel'>
+                  <a href='tel:01521507407' className='tel'>
                     <FaPhone /> (+880) 1521 507 407
                   </a>
-                  <a href='tel:12125553333' className='tel'>
+                  <a href='mailto:info@evocationit.com' className='tel'>
                     <FaMailBulk /> info@evocationit.com
                   </a>
                 </address>
@@ -88,21 +88,20 @@ const OffcanvasMenu = ({ offcanvasShow, offcanvasHide }) => {
                         <FaFacebookF />
                       </a>
                     </li>
-
-                    <li>
-                      <a
-                        href='https://twitter.com/EvocationIt'
-                        rel='noopener noreferrer'
-                        target='_blank'>
-                        <FaTwitter />
-                      </a>
-                    </li>
                     <li>
                       <a
                         href='https://www.linkedin.com/company/evocation-it/'
                         rel='noopener noreferrer'
                         target='_blank'>
                         <FaLinkedinIn />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href='https://twitter.com/EvocationIt'
+                        rel='noopener noreferrer'
+                        target='_blank'>
+                        <FaTwitter />
                       </a>
                     </li>
                     <li>
