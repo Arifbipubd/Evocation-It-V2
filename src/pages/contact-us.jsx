@@ -3,7 +3,6 @@
 import React from "react";
 import SEO from "../common/SEO";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
-import FooterOne from "../common/footer/FooterOne";
 import HeaderOne from "../common/header/HeaderOne";
 import BreadCrumbOne from "../elements/breadcrumb/BreadCrumbOne";
 import FormTwo from "../component/contact/FormTwo";

@@ -2,7 +2,6 @@
 
 import React from "react";
 // import { useParams } from "react-router-dom";
-import FooterOne from "../common/footer/FooterOne";
 import HeaderOne from "../common/header/HeaderOne";
 import BcrumbBannerOne from "../elements/breadcrumb/BcrumbBannerOne";
 import CtaLayoutOne from "../component/cta/CtaLayoutOne";

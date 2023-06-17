@@ -1,7 +1,6 @@
 /** @format */
 
 import React from "react";
-import FooterOne from "../common/footer/FooterOne";
 import HeaderOne from "../common/header/HeaderOne";
 import SEO from "../common/SEO";
 import BcrumbBannerOne from "../elements/breadcrumb/BcrumbBannerOne";
