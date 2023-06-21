@@ -1,7 +1,6 @@
 /** @format */
 
 import React from "react";
-import { Link } from "react-router-dom";
 import CountUp from "react-countup";
 import TrackVisibility from "react-on-screen";
 
