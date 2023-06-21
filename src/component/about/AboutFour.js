@@ -39,9 +39,7 @@ const AboutFour = () => {
                   Join us on this exciting journey and experience firsthand the
                   power of growth-driven web development.
                 </p>
-                <Link to='#' className='axil-btn btn-fill-primary btn-large'>
-                  Read More
-                </Link>
+                <h4 className='partnershipTitle'>In Partnership With</h4>
               </div>
               <div className='case-study-counterup'>
                 <div className='single-counterup'>

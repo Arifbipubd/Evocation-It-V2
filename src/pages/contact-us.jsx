@@ -7,6 +7,7 @@ import HeaderOne from "../common/header/HeaderOne";
 import BreadCrumbOne from "../elements/breadcrumb/BreadCrumbOne";
 import FormTwo from "../component/contact/FormTwo";
 import ContactLocation from "../component/contact/ContactLocation";
+import SectionTitle from "../elements/section-title/SectionTitle";
 
 const Contact = () => {
   return (
@@ -73,6 +74,13 @@ const Contact = () => {
 
         <div className='section section-padding bg-color-dark overflow-hidden'>
           <div className='container'>
+            <SectionTitle
+              subtitle='Find Us'
+              title='Our office'
+              description=''
+              textAlignment='heading-light-left'
+              textColor=''
+            />
             <div className='row'>
               <ContactLocation />
             </div>
