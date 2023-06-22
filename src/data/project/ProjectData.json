@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "image": "/images/project/griffin-art.jpg",
-    "videoThumbImage": "/images/project/griffin-art.jpg",
-    "title": "Griffin Art",
-    "DescTitle": "Griffin Art Desc",
-    "category": ["Branding", "Website", "App"],
-    "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+    "image": "/images/project/narayani.jpg",
+    "videoThumbImage": "/images/project/narayani.jpg",
+    "title": "Narayani Namastute",
+    "DescTitle": "DURGA PUJA EXCELLENCE AWARD",
+    "category": ["Website"],
+    "excerpt": "Official Website of a yearly event to showcase their activities and award campaigns.",
     "body": [
       "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
       "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
@@ -26,11 +26,16 @@
   },
   {
     "id": 2,
-    "image": "/images/project/oasis-inventory.jpg",
-    "title": "Oasis Inventory",
-    "category": ["Logo", "Website", "Mobile"],
-    "excerpt": "test",
-    "body": ["test"],
+    "image": "/images/project/perky-moth.jpg",
+    "videoThumbImage": "/images/project/perky-moth.jpg",
+    "title": "Perky Moth",
+    "DescTitle": "Prioritize Your Comform",
+    "category": ["Website"],
+    "excerpt": "Luxury comfortware ecommerce site in Turkey, to sell their luxury products online",
+    "body": [
+      "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
+      "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
+    ],
     "accordian": [
       {
         "title": "Strategy",
@@ -39,187 +44,434 @@
       {
         "title": "Design",
         "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
-      },
-      {
-        "title": "Development",
-        "description": "Generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
       }
-    ]
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
   },
   {
     "id": 3,
-    "image": "/images/project/perky-moth.jpg",
-    "title": "Perky Moth",
-    "category": ["Website", "UI/UX"],
-    "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+    "image": "/images/project/oasis-agro.jpg",
+    "videoThumbImage": "/images/project/oasis-agro.jpg",
+    "title": "Oasis Poultry Inventory",
+    "DescTitle": "Seamless Management in Farms",
+    "category": ["System"],
+    "excerpt": "Poultry production farm inventory management system for Oasis group",
     "body": [
       "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
       "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
-    ]
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
   },
   {
     "id": 4,
-    "image": "/images/project/project-4.png",
-    "title": "Plan Management",
-    "category": ["Branding", "Website", "Mobile"],
-    "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+    "image": "/images/project/kbh-worker.jpg",
+    "videoThumbImage": "/images/project/kbh-worker.jpg",
+    "title": "KBH Workers",
+    "DescTitle": "Earn Money Online",
+    "category": ["System"],
+    "excerpt": "Micro work service platform for buyers and sellers to connect, complete works and win contests",
     "body": [
       "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
       "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
-    ]
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
   },
   {
     "id": 5,
-    "image": "/images/project/project-5.png",
-    "title": "Social Engagement",
-    "category": ["Design", "Development"],
-    "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+    "image": "/images/project/knit-management.jpg",
+    "videoThumbImage": "/images/project/knit-management.jpg",
+    "title": "Knit Management System",
+    "DescTitle": "Knitting & Printing Management Simultaneously",
+    "category": ["System"],
+    "excerpt": "Knit production factory management system to manage, support and monitor multiple simultaneous processes in the factory.",
     "body": [
       "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
       "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
-    ]
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
   },
   {
     "id": 6,
-    "image": "/images/project/project-6.png",
-    "title": "Web Application",
-    "category": ["Logo", "Webapp", "Mobile"],
-    "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+    "image": "/images/project/griffin-art.jpg",
+    "videoThumbImage": "/images/project/griffin-art.jpg",
+    "title": "Griffin Art",
+    "DescTitle": "The Story tellers of Marketing",
+    "category": ["Website"],
+    "excerpt": "Official website for a production company to showcase their works and information",
     "body": [
       "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
       "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
-    ]
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
   },
   {
     "id": 7,
-    "image": "/images/project/project-5.png",
-    "title": "Creative Agency",
-    "category": ["Branding", "Website", "App"],
-    "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+    "image": "/images/project/farooq-perfume.jpg",
+    "videoThumbImage": "/images/project/farooq-perfume.jpg",
+    "title": "Farooq Perfume",
+    "DescTitle": "E-commerce Solution for Own Products",
+    "category": ["Website"],
+    "excerpt": "Ecommerce site in Abu Dhabi for perfume seller company, to provide detailed information on their product and sell them online",
     "body": [
       "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
       "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
-    ]
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
   },
   {
     "id": 8,
-    "image": "/images/project/project-6.png",
-    "title": "Digital Marketing",
-    "category": ["Logo", "Website", "Mobile"],
-    "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+    "image": "/images/project/linearity.jpg",
+    "videoThumbImage": "/images/project/linearity.jpg",
+    "title": "Linearity Architects",
+    "DescTitle": "Interior Design Showcasing Interactively",
+    "category": ["Website"],
+    "excerpt": "Official website of an interior design service company to showcase their works and information",
     "body": [
       "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
       "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
-    ]
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
   },
   {
     "id": 9,
-    "image": "/images/project/project-4.png",
-    "title": "Digital Agency",
-    "category": ["Website", "UI/UX"],
-    "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+    "image": "/images/project/sonic-overseas.jpg",
+    "videoThumbImage": "/images/project/sonic-overseas.jpg",
+    "title": "Sonic Overseas",
+    "DescTitle": "Detailed Online Existance",
+    "category": ["Website"],
+    "excerpt": "Official website for a manpower recruiting agency to showcase their services and achievements.",
     "body": [
       "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
       "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
-    ]
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
   },
   {
     "id": 10,
-    "image": "/images/project/project-3.png",
-    "title": "Plan Management",
-    "category": ["Branding", "Website", "Mobile"],
-    "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+    "image": "/images/project/multibrand.jpg",
+    "videoThumbImage": "/images/project/multibrand.jpg",
+    "title": "MultiBrand Official site",
+    "DescTitle": "Detailed Online Existance",
+    "category": ["Website"],
+    "excerpt": "Official website of an IT product providing company to showcase their specialty, feature products and vendors.",
     "body": [
       "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
       "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
-    ]
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
   },
   {
     "id": 11,
-    "image": "/images/project/project-2.png",
-    "title": "Social Engagement",
-    "category": ["Design", "Development"],
-    "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+    "image": "/images/project/notunera.jpg",
+    "videoThumbImage": "/images/project/notunera.jpg",
+    "title": "Notunera Multi Vendor",
+    "DescTitle": "Detailed Online Existance",
+    "category": ["Website"],
+    "excerpt": "Ecommerce site in Bangladesh to sell baby products online, educate customers on baby products and their usages. ",
     "body": [
       "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
       "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
-    ]
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
   },
   {
     "id": 12,
-    "image": "/images/project/project-1.png",
-    "title": "Web Application",
-    "category": ["Logo", "Webapp", "Mobile"],
-    "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+    "image": "/images/project/prolungs.jpg",
+    "videoThumbImage": "/images/project/prolungs.jpg",
+    "title": "ProLungs",
+    "DescTitle": "Detailed Online Existance",
+    "category": ["Mobile"],
+    "excerpt": "Smoking cessation mobile application to help people reduce cigarette smoking with research-based methods and processes.",
     "body": [
       "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
       "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
-    ]
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
   },
   {
     "id": 13,
-    "image": "/images/project/project-7.png",
-    "title": "Mark Design",
-    "category": ["ios", "Design"],
-    "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+    "image": "/images/project/prolungs.jpg",
+    "videoThumbImage": "/images/project/prolungs.jpg",
+    "title": "RideAlong Driving license test app",
+    "DescTitle": "Detailed Online Existance",
+    "category": ["Mobile"],
+    "excerpt": "Prototype android application to educate people on the theoretical part of the driving license test.",
     "body": [
       "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
       "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
-    ]
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
   },
   {
     "id": 14,
-    "image": "/images/project/project-8.png",
-    "title": "Abastrak Agency",
-    "category": ["ios", "Design"],
-    "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+    "image": "/images/project/invicta-solutions.jpg",
+    "videoThumbImage": "/images/project/invicta-solutions.jpg",
+    "title": "Invicta Solutions Limited",
+    "DescTitle": "Detailed Online Existance",
+    "category": ["Website"],
+    "excerpt": "Official website of a cross-country human resource recruiting agency to showcase their services.",
     "body": [
       "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
       "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
-    ]
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
   },
   {
     "id": 15,
-    "image": "/images/project/project-9.png",
-    "title": "Archi- Online platform",
-    "category": ["ios", "design"],
-    "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+    "image": "/images/project/rainforest.jpg",
+    "videoThumbImage": "/images/project/rainforest.jpg",
+    "title": "Rainforest Communications ",
+    "DescTitle": "Detailed Online Existance",
+    "category": ["Website"],
+    "excerpt": "Official website of a marketing and production agency to showcase their services and works.",
     "body": [
       "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
       "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
-    ]
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
   },
   {
     "id": 16,
-    "image": "/images/project/project-12.png",
-    "title": "Wordpress theme",
-    "category": ["ios", "design"],
-    "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+    "image": "/images/project/inthira.jpg",
+    "videoThumbImage": "/images/project/inthira.jpg",
+    "title": "Inthira Munion",
+    "DescTitle": "Detailed Online Existance",
+    "category": ["Website"],
+    "excerpt": "Personal portfolio site of a business and empowerment trainer to showcase works and services.",
     "body": [
       "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
       "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
-    ]
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
   },
   {
     "id": 17,
-    "image": "/images/project/project-10.png",
-    "title": "Product photography",
-    "category": ["2021"],
-    "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+    "image": "/images/project/sabir-noor.jpg",
+    "videoThumbImage": "/images/project/sabir-noor.jpg",
+    "title": "HM Sabir Noor",
+    "DescTitle": "Detailed Online Existance",
+    "category": ["Website"],
+    "excerpt": "Personal portfolio and article site of a media person to write online.",
     "body": [
       "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
       "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
-    ]
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
   },
   {
     "id": 18,
-    "image": "/images/project/project-11.png",
-    "title": "Illustration",
-    "category": ["2020"],
-    "excerpt": "A quick view of industry specific problems solved with design by the awesome team at Keystroke.",
+    "image": "/images/project/activarmor.jpg",
+    "videoThumbImage": "/images/project/activarmor.jpg",
+    "title": "ActivArmor UAE",
+    "DescTitle": "Detailed Online Existance",
+    "category": ["Website"],
+    "excerpt": "Franchise website for a custom cast and splints manufacturing company operating in UAE.",
     "body": [
       "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
       "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
-    ]
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
+  },
+  {
+    "id": 19,
+    "image": "/images/project/dorjar-opashe.jpg",
+    "videoThumbImage": "/images/project/dorjar-opashe.jpg",
+    "title": "Dorjar Opashe",
+    "DescTitle": "Detailed Online Existance",
+    "category": ["Website"],
+    "excerpt": "Franchise website for a custom cast and splints manufacturing company operating in UAE.",
+    "body": [
+      "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
+      "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
   }
 ]
