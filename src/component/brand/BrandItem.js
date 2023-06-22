@@ -73,7 +73,7 @@ const Data = [
     image: "/images/brand/sonic.png",
   },
   {
-    image: "/images/brand/sonic.png",
+    image: "/images/brand/ssglobal.png",
   },
 ];
 
