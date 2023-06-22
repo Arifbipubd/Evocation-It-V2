@@ -38,38 +38,34 @@ const AboutFour = () => {
                   Join us on this exciting journey and experience firsthand the
                   power of growth-driven web development.
                 </p>
-                <h4 className='partnershipTitle'>In Partnership With</h4>
               </div>
+              <h4 className='partnershipTitle'>In Partnership With</h4>
               <div className='case-study-counterup'>
-                <div className='single-counterup'>
-                  <h2 className='count-number'>
-                    <TrackVisibility once>
-                      {({ isVisible }) => (
-                        <span className='number count'>
-                          {isVisible ? <CountUp end='10' duration={1} /> : null}
-                        </span>
-                      )}
-                    </TrackVisibility>
-                    <span className='symbol'>+</span>
-                  </h2>
-                  <span className='counter-title'>Years on the market</span>
-                </div>
-                <div className='single-counterup'>
-                  <h2 className='count-number'>
-                    <TrackVisibility once>
-                      {({ isVisible }) => (
-                        <span className='number count'>
-                          {isVisible ? (
-                            <CountUp end='1500' duration={1} />
-                          ) : null}
-                        </span>
-                      )}
-                    </TrackVisibility>
-                    <span className='symbol'>+</span>
-                  </h2>
-                  <span className='counter-title'>
-                    Projects delivered so far
-                  </span>
+                <div className='d-flex'>
+                  <div>
+                    <img
+                      src={
+                        process.env.PUBLIC_URL + "/images/brand/multibrand.png"
+                      }
+                      alt='Circle'
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={
+                        process.env.PUBLIC_URL + "/images/brand/leadpedia.png"
+                      }
+                      alt='Circle'
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={
+                        process.env.PUBLIC_URL + "/images/brand/rainforest.png"
+                      }
+                      alt='Circle'
+                    />
+                  </div>
                 </div>
               </div>
             </div>
