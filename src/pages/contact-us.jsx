@@ -38,7 +38,7 @@ const Contact = () => {
                     pm (GMT+06)
                   </p>
                   <h4 className='phone-number'>
-                    <a href='tel:01521507407'>(+88)01521 507 407</a>
+                    <a href='tel:+8801521507407'>(+88)01521 507 407</a>
                   </h4>
                 </div>
                 <div className='contact-info mb--30'>

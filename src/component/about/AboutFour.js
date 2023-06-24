@@ -43,23 +43,23 @@ const AboutFour = () => {
                   <div>
                     <img
                       src={
-                        process.env.PUBLIC_URL + "/images/brand/multibrand.png"
+                        process.env.PUBLIC_URL +
+                        "/images/others/1the-bridge.png"
                       }
                       alt='Circle'
                     />
                   </div>
                   <div>
                     <img
-                      src={
-                        process.env.PUBLIC_URL + "/images/brand/leadpedia.png"
-                      }
+                      src={process.env.PUBLIC_URL + "/images/others/3db.png"}
                       alt='Circle'
                     />
                   </div>
                   <div>
                     <img
                       src={
-                        process.env.PUBLIC_URL + "/images/brand/rainforest.png"
+                        process.env.PUBLIC_URL +
+                        "/images/others/2the-griffin.png"
                       }
                       alt='Circle'
                     />

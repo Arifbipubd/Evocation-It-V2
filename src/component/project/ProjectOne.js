@@ -67,9 +67,9 @@ const ProjectOne = ({ parentClass, colSize, itemShow, columnGap }) => {
         }`}>
         <div className='container'>
           <SectionTitle
-            subtitle='Our Project'
+            subtitle='Our Projects'
             title='Some of our <br>
-                        finest work.'
+                        finest works.'
             textAlignment='heading-left mb--40'
             textColor=''
           />

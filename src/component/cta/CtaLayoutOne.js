@@ -14,7 +14,7 @@ const CtaLayoutOne = () => {
             <Link
               to={process.env.PUBLIC_URL + "/contact"}
               className='axil-btn btn-large btn-fill-white'>
-              Estimate Project
+              Contact Us
             </Link>
           </div>
           <div className='thumbnail'>

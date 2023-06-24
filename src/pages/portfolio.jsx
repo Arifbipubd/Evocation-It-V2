@@ -17,7 +17,7 @@ const ProjectGridOne = () => {
         <HeaderOne />
         <BcrumbBannerOne
           title='Our Projects'
-          paragraph='A quick view of industry specific problems solved with design by the awesome team at Abstrak.
+          paragraph='A quick view of industry specific problems solved with design by the awesome team at Evocation IT.
                 '
           styleClass=''
           mainThumb='/images/project/hero-project.png'

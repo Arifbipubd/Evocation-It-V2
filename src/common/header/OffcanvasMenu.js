@@ -68,7 +68,7 @@ const OffcanvasMenu = ({ offcanvasShow, offcanvasHide }) => {
                 </address>
                 <address className='address'>
                   <span className='title'>Remotely Reach Us for Inquiry</span>
-                  <a href='tel:01521507407' className='tel'>
+                  <a href='tel:+8801521507407' className='tel'>
                     <FaPhone /> (+880) 1521 507 407
                   </a>
                   <a href='mailto:info@evocationit.com' className='tel'>
