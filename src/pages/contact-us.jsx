@@ -23,7 +23,10 @@ const Contact = () => {
             <div className='row'>
               <div className='col-xl-5 col-lg-6'>
                 <div className='contact-form-box shadow-box mb--30'>
-                  <h3 className='title'>Get a free Abstrak quote now</h3>
+                  <h3 className='title'>
+                    Fill the form and relax, we will get back to you within a
+                    day.
+                  </h3>
                   <FormTwo />
                 </div>
               </div>
@@ -31,10 +34,11 @@ const Contact = () => {
                 <div className='contact-info mb--100 mb_md--30 mt_md--0 mt--150'>
                   <h4 className='title'>Phone</h4>
                   <p>
-                    Our customer care is open from Mon-Fri, 10:00 am to 6:00 pm
+                    Our support team is available on Sun-Thu, 10:00 am to 6:00
+                    pm (GMT+06)
                   </p>
                   <h4 className='phone-number'>
-                    <a href='tel:1234567890'>(123) 456 7890</a>
+                    <a href='tel:01521507407'>(+88)01521 507 407</a>
                   </h4>
                 </div>
                 <div className='contact-info mb--30'>
@@ -44,7 +48,9 @@ const Contact = () => {
                     business hours.
                   </p>
                   <h4 className='phone-number'>
-                    <a href='mailto:info@example.com'>info@example.com</a>
+                    <a href='mailto:info@evocationit.com'>
+                      info@evocationit.com
+                    </a>
                   </h4>
                 </div>
               </div>
@@ -75,8 +81,8 @@ const Contact = () => {
         <div className='section section-padding bg-color-dark overflow-hidden'>
           <div className='container'>
             <SectionTitle
-              subtitle='Find Us'
-              title='Our office'
+              subtitle='Reach Us through'
+              title='Socials or Our Partner Organizations'
               description=''
               textAlignment='heading-light-left'
               textColor=''

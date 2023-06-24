@@ -6,7 +6,7 @@ import SEO from "../common/SEO";
 import AboutOne from "../component/about/AboutOne";
 import BannerOne from "../component/banner/BannerOne";
 import CtaLayoutOne from "../component/cta/CtaLayoutOne";
-import ProjectOne from "../component/project/ProjectOne";
+import ProjectTwo from "../component/project/ProjectTwo";
 import ServicePropOne from "../component/service/ServicePropOne";
 import SectionTitle from "../elements/section-title/SectionTitle";
 import ColorSwitcher from "../elements/switcher/ColorSwitcher";
@@ -58,7 +58,7 @@ const DigitalAgency = () => {
           </ul>
         </div>
         <AboutOne />
-        <ProjectOne />
+        <ProjectTwo />
         {/* <BlogOne /> */}
         <CtaLayoutOne />
       </main>

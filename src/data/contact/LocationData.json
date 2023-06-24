@@ -1,34 +1,34 @@
 [
   {
-    "thumb": "/images/others/location-1.png",
-    "title": "Virginia-HQ",
-    "address": "435 Pouros Locks United States",
-    "facebookLink": "#",
-    "Email": "#",
-    "Phone": "#"
+    "thumb": "/images/others/remote.png",
+    "title": "Evocation Cloud",
+    "address": "Immersive cloud agency experience directly from your own location. ",
+    "facebookLink": "https://www.facebook.com/evocationit",
+    "whatsapp": "https://wa.me/8801521507407",
+    "linkedin": "https://www.linkedin.com/company/evocation-it/",
+    "twitter": "https://twitter.com/EvocationIt "
   },
   {
-    "thumb": "/images/others/location-2.png",
-    "title": "Nevada",
-    "address": "46 Watsica Creek Suite 071 United States",
-    "facebookLink": "#",
-    "Email": "#",
-    "Phone": "#"
+    "thumb": "/images/others/dhaka.png",
+    "title": "Bridge Interactive",
+    "address": "Level 10, 218 Elephant Road, Dhaka, BD",
+    "facebookLink": "https://www.facebook.com/TheBridgeInteractive",
+    "Email": "info@thebridgeinteractive.com",
+    "website": "https://thebridgeinteractive.com/"
   },
   {
-    "thumb": "/images/others/location-3.png",
-    "title": "Columbia",
-    "address": "7140 Wehner Tunnel Washington, D.C",
-    "facebookLink": "#",
-    "Email": "#",
-    "Phone": "#"
+    "thumb": "/images/others/turkey.png",
+    "title": "Griffin Art",
+    "address": "Ataköy 7-8-9-10. Kısım Mahallasi Nivo Ataköy,İstanbul, TR",
+    "facebookLink": "https://www.facebook.com/Griffin.Art.H",
+    "Email": "hello@griffin-art.net",
+    "website": "https://griffin-art.net/"
   },
   {
-    "thumb": "/images/others/location-4.png",
-    "title": "New Mexico",
-    "address": "10 Maggie Valleys United States",
-    "facebookLink": "#",
-    "Email": "#",
-    "Phone": "#"
+    "thumb": "/images/others/malaysia.png",
+    "title": "1 Digital Beacon",
+    "address": "Tricor Suite, Vertical Tower A, Bangsar South, Kuala Lumpur, MY",
+    "whatsapp": "https://wa.me/601162244604",
+    "linkedin": "https://www.linkedin.com/company/1digital-beacon/?originalSubdomain=my"
   }
 ]

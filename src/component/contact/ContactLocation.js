@@ -1,7 +1,14 @@
 /** @format */
 import React from "react";
 import LocationData from "../../data/contact/LocationData.json";
-import { FaFacebookF, FaMailBulk, FaPhoneAlt } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaMailBulk,
+  FaWhatsapp,
+  FaLinkedin,
+  FaGlobe,
+  FaTwitter,
+} from "react-icons/fa";
 
 const allData = LocationData;
 
@@ -20,7 +27,7 @@ const ContactLocation = () => {
             </div>
             <div className='contact-social-share'>
               <ul className='social-share list-unstyled'>
-                <li>
+                <li className={`${data.facebookLink ? " d-block " : "d-none"}`}>
                   <a
                     href={data.facebookLink}
                     rel='noopener noreferrer'
@@ -28,20 +35,44 @@ const ContactLocation = () => {
                     <FaFacebookF />
                   </a>
                 </li>
-                <li>
+                <li className={`${data.Email ? " d-block " : "d-none"}`}>
                   <a
-                    href={data.Email}
+                    href={`mailto:${data.Email}`}
                     rel='noopener noreferrer'
                     target='_blank'>
                     <FaMailBulk />
                   </a>
                 </li>
-                <li>
+                <li className={`${data.whatsapp ? " d-block " : "d-none"}`}>
                   <a
-                    href={data.Phone}
+                    href={data.whatsapp}
                     rel='noopener noreferrer'
                     target='_blank'>
-                    <FaPhoneAlt />
+                    <FaWhatsapp />
+                  </a>
+                </li>
+                <li className={`${data.linkedin ? " d-block " : "d-none"}`}>
+                  <a
+                    href={data.linkedin}
+                    rel='noopener noreferrer'
+                    target='_blank'>
+                    <FaLinkedin />
+                  </a>
+                </li>
+                <li className={`${data.website ? " d-block " : "d-none"}`}>
+                  <a
+                    href={data.website}
+                    rel='noopener noreferrer'
+                    target='_blank'>
+                    <FaGlobe />
+                  </a>
+                </li>
+                <li className={`${data.twitter ? " d-block " : "d-none"}`}>
+                  <a
+                    href={data.twitter}
+                    rel='noopener noreferrer'
+                    target='_blank'>
+                    <FaTwitter />
                   </a>
                 </li>
               </ul>

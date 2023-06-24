@@ -28,13 +28,13 @@ const AllData = ProjectData;
 
 const ProjectOne = ({ parentClass, colSize, itemShow, columnGap }) => {
   const [getAllItems] = useState(AllData);
-  const [visiableProject] = useState(itemShow ? itemShow : 6);
+  // const [visiableProject] = useState(itemShow ? itemShow : 6);
   const [activeFilter, setActiveFilter] = useState("");
   const [visibleItems, setVisibleItems] = useState([]);
 
   useEffect(() => {
     setActiveFilter(filters[0].label);
-    setVisibleItems(getAllItems.filter((item) => item.id <= visiableProject));
+    setVisibleItems(getAllItems.filter((item) => item.id));
   }, []);
 
   const handleChange = (e) => {
@@ -45,7 +45,7 @@ const ProjectOne = ({ parentClass, colSize, itemShow, columnGap }) => {
 
     let tempData = [];
     if (target === filters[0].label) {
-      tempData = getAllItems.filter((data) => data.id <= visiableProject);
+      tempData = getAllItems.filter((data) => data.id);
     } else {
       for (let i = 0; i < getAllItems.length; i++) {
         const element = getAllItems[i];

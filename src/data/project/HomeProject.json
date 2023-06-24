@@ -1,0 +1,152 @@
+[
+  {
+    "id": 2,
+    "image": "/images/project/oasis-agro.jpg",
+    "videoThumbImage": "/images/project/oasis-agro.jpg",
+    "title": "Oasis Poultry Inventory",
+    "DescTitle": "Seamless Management in Farms",
+    "category": ["System"],
+    "excerpt": "Poultry production farm inventory management system for Oasis group",
+    "body": [
+      "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
+      "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
+  },
+  {
+    "id": 1,
+    "image": "/images/project/perky-moth.jpg",
+    "videoThumbImage": "/images/project/perky-moth.jpg",
+    "title": "Perky Moth",
+    "DescTitle": "Prioritize Your Comform",
+    "category": ["Website"],
+    "excerpt": "Luxury comfortware ecommerce site in Turkey, to sell their luxury products online",
+    "body": [
+      "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
+      "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
+  },
+  {
+    "id": 3,
+    "image": "/images/project/prolungs.jpg",
+    "videoThumbImage": "/images/project/prolungs.jpg",
+    "title": "ProLungs",
+    "DescTitle": "Detailed Online Existance",
+    "category": ["Mobile"],
+    "excerpt": "Smoking cessation mobile application to help people reduce cigarette smoking with research-based methods and processes.",
+    "body": [
+      "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
+      "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
+  },
+  {
+    "id": 4,
+    "image": "/images/project/prolungs.jpg",
+    "videoThumbImage": "/images/project/prolungs.jpg",
+    "title": "RideAlong Driving license test app",
+    "DescTitle": "Detailed Online Existance",
+    "category": ["Mobile"],
+    "excerpt": "Prototype android application to educate people on the theoretical part of the driving license test.",
+    "body": [
+      "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
+      "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
+  },
+  {
+    "id": 5,
+    "image": "/images/project/knit-management.jpg",
+    "videoThumbImage": "/images/project/knit-management.jpg",
+    "title": "Knit Management System",
+    "DescTitle": "Knitting & Printing Management Simultaneously",
+    "category": ["System"],
+    "excerpt": "Knit production factory management system to manage, support and monitor multiple simultaneous processes in the factory.",
+    "body": [
+      "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
+      "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
+  },
+  {
+    "id": 6,
+    "image": "/images/project/linearity.jpg",
+    "videoThumbImage": "/images/project/linearity.jpg",
+    "title": "Linearity Architects",
+    "DescTitle": "Interior Design Showcasing Interactively",
+    "category": ["Website"],
+    "excerpt": "Official website of an interior design service company to showcase their works and information",
+    "body": [
+      "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing.",
+      "Digital technology has made our world more transparent and interconnected, posing new challenges and opportunities for every business. A holistic, user-centric perspective is what truly sets one apart."
+    ],
+    "accordian": [
+      {
+        "title": "Strategy",
+        "description": "From the designers and engineers who are creating the next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      },
+      {
+        "title": "Design",
+        "description": "Next generation of web and mobile experiences, to anyone putting a website together for the first time. We provide elegant solutions that set new standards for online publishing."
+      }
+    ],
+    "video": "https://www.youtube.com/watch?v=4FjFRQguGsg&ab_channel=MetrolifeTV",
+    "cta": "https://www.google.com/"
+  }
+]
