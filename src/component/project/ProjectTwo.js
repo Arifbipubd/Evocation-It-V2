@@ -8,7 +8,7 @@ import HomeProject from "../../data/project/HomeProject.json";
 const filters = [
   {
     id: 1,
-    label: "All Works",
+    label: "Featured",
   },
   {
     id: 2,
