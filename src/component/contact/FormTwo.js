@@ -22,10 +22,10 @@ const FormTwo = () => {
 
     emailjs
       .sendForm(
-        "service_yj5dgzp",
-        "template_hfduayo",
+        "service_3jkptir",
+        "template_0f259r8",
         form.current,
-        "WLENsTkBytC0yvItS"
+        "0OkMOpMCD6GyYwCLz"
       )
       .then(
         (result) => {
@@ -47,37 +47,24 @@ const FormTwo = () => {
     <form ref={form} onSubmit={sendEmail} className='axil-contact-form'>
       <div className='form-group'>
         <label>Name</label>
-        <input
-          type='text'
-          className='form-control'
-          name='contact-name'
-          required
-        />
+        <input type='text' className='form-control' name='user_name' required />
       </div>
       <div className='form-group'>
         <label>Email</label>
         <input
           type='email'
           className='form-control'
-          name='contact-email'
+          name='user_email'
           required
         />
       </div>
       <div className='form-group'>
         <label>Phone</label>
-        <input
-          type='tel'
-          className='form-control'
-          name='contact-phone'
-          required
-        />
+        <input type='tel' className='form-control' name='user_phone' required />
       </div>
       <div className='form-group mb--40'>
         <label>Project Requirement</label>
-        <textarea
-          className='form-control'
-          name='contact-message'
-          rows='4'></textarea>
+        <textarea className='form-control' name='message' rows='4'></textarea>
       </div>
       <div className='form-group'>
         <button
