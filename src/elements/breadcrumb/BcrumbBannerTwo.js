@@ -3,7 +3,7 @@
 import React from "react";
 import Tilty from "react-tilty";
 
-const BcrumbBannerTwo = ({ title, paragraph, mainThumb }) => {
+const BcrumbBannerTwo = ({ title, paragraph, mainThumb, projectUrl }) => {
   return (
     <div className='breadcrum-area breadcrumb-banner single-breadcrumb'>
       <div className='container'>
@@ -16,7 +16,7 @@ const BcrumbBannerTwo = ({ title, paragraph, mainThumb }) => {
               ></h1>
               <p dangerouslySetInnerHTML={{ __html: paragraph }}></p>
               <div className='projectDetailsBtn'>
-                <a href='#'>
+                <a href={projectUrl}>
                   <button class='learn-more'>
                     <span class='circle' aria-hidden='true'>
                       <span class='icon arrow'></span>
