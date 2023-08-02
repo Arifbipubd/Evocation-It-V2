@@ -20,7 +20,7 @@ const BcrumbBannerTwo = ({ title, paragraph, mainThumb, projectUrl }) => {
 
   if (detailsProject.cta != null) {
     viewProject = (
-      <a href={detailsProject.cta} target='_blank'>
+      <a href={detailsProject.cta} target='_blank' rel='noopener noreferrer'>
         <button class='learn-more'>
           <span class='circle' aria-hidden='true'>
             <span class='icon arrow'></span>
