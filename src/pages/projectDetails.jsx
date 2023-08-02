@@ -25,7 +25,6 @@ const ProjectDetails = () => {
   const detailsProject = getProjectData[0];
 
   let VideoDiv;
-  let cta;
 
   if (detailsProject.video != null) {
     VideoDiv = (
@@ -35,18 +34,6 @@ const ProjectDetails = () => {
       />
     );
     console.log(detailsProject.accordian.map((data, index) => index));
-  }
-
-  if (detailsProject.cta != null) {
-    cta = (
-      <a
-        href={detailsProject.cta}
-        target='_blank'
-        rel='noopener noreferrer'
-        className='axil-btn btn-fill-primary'>
-        CTA
-      </a>
-    );
   }
 
   return (
@@ -59,6 +46,7 @@ const ProjectDetails = () => {
           title={detailsProject.title}
           paragraph={detailsProject.excerpt}
           mainThumb={detailsProject.image}
+          projectUrl={detailsProject.cta}
         />
         <section className='section-padding single-portfolio-area'>
           <div className='container'>
@@ -75,7 +63,6 @@ const ProjectDetails = () => {
                 {detailsProject.body.map((para, index) => (
                   <p key={index} dangerouslySetInnerHTML={{ __html: para }}></p>
                 ))}
-                {cta}
               </div>
               <div className='col-lg-6 offset-xl-1'>
                 <div className='why-choose-us'>

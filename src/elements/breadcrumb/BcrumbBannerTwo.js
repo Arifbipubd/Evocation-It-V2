@@ -1,9 +1,36 @@
 /** @format */
 
 import React from "react";
+import { useParams } from "react-router-dom";
 import Tilty from "react-tilty";
+import ProjectData from "../../data/project/ProjectData.json";
+import { slugify } from "../../utils";
 
 const BcrumbBannerTwo = ({ title, paragraph, mainThumb, projectUrl }) => {
+  const allProjectData = ProjectData;
+  const params = useParams();
+  const projectSlug = params.slug;
+
+  const getProjectData = allProjectData.filter(
+    (data) => slugify(data.title) === projectSlug
+  );
+  const detailsProject = getProjectData[0];
+
+  let viewProject;
+
+  if (detailsProject.cta != null) {
+    viewProject = (
+      <a href={detailsProject.cta} target='_blank'>
+        <button class='learn-more'>
+          <span class='circle' aria-hidden='true'>
+            <span class='icon arrow'></span>
+          </span>
+          <span class='button-text'>View Project</span>
+        </button>
+      </a>
+    );
+  }
+
   return (
     <div className='breadcrum-area breadcrumb-banner single-breadcrumb'>
       <div className='container'>
@@ -15,16 +42,7 @@ const BcrumbBannerTwo = ({ title, paragraph, mainThumb, projectUrl }) => {
                 dangerouslySetInnerHTML={{ __html: title }}
               ></h1>
               <p dangerouslySetInnerHTML={{ __html: paragraph }}></p>
-              <div className='projectDetailsBtn'>
-                <a href={projectUrl}>
-                  <button class='learn-more'>
-                    <span class='circle' aria-hidden='true'>
-                      <span class='icon arrow'></span>
-                    </span>
-                    <span class='button-text'>View Project</span>
-                  </button>
-                </a>
-              </div>
+              <div className='projectDetailsBtn'>{viewProject}</div>
             </div>
           </div>
           <div className='col-lg-6'>
