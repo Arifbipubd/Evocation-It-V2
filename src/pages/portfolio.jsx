@@ -11,7 +11,7 @@ import ProjectOne from "../component/project/ProjectOne";
 const ProjectGridOne = () => {
   return (
     <>
-      <SEO title='Project Two Column' />
+      <SEO title='Project' />
       <ColorSwitcher />
       <main className='main-wrapper'>
         <HeaderOne />

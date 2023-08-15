@@ -12,7 +12,7 @@ import SectionTitle from "../elements/section-title/SectionTitle";
 const Contact = () => {
   return (
     <>
-      <SEO title='Blog Grid' />
+      <SEO title='Contact Us' />
       <ColorSwitcher />
       <main className='main-wrapper'>
         <HeaderOne />
