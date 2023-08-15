@@ -14,7 +14,7 @@ import ColorSwitcher from "../elements/switcher/ColorSwitcher";
 const DigitalAgency = () => {
   return (
     <>
-      <SEO title='Evocation It' />
+      <SEO title='Home' />
       <ColorSwitcher />
       <main className='main-wrapper'>
         <HeaderOne />
